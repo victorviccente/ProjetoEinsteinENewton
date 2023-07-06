@@ -1,12 +1,12 @@
-package desafiojava2;
+package entities;
 
-public class Pessoa {
+public class User {
 
 	private String nome;
-	private Universidade universidade;
+	private University universidade;
 	private int idade;
 
-	public Pessoa(String nome, Universidade universidade) {
+	public User(String nome, University universidade) {
 		this.nome = nome;
 		this.universidade = universidade;
 	}
@@ -19,11 +19,11 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	public Universidade getUniversidade() {
+	public University getUniversidade() {
 		return universidade;
 	}
 
-	public void setUniversidade(Universidade universidade) {
+	public void setUniversidade(University universidade) {
 		this.universidade = universidade;
 	}
 

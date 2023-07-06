@@ -1,10 +1,10 @@
-package desafiojava2;
+package entities;
 
-public class Universidade {
+public class University {
 	
 	private String nome;
 	
-	public Universidade(String nome) {
+	public University(String nome) {
 		this.nome = nome;
 	}
 	
